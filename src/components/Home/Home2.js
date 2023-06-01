@@ -4,7 +4,7 @@ import myImg from "../../Assets/Abhi.img.jpeg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
+  // AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -72,14 +72,14 @@ function Home2() {
                 </a>
               </li>
               <li className="social-icons">
-                <a
+                {/* <a
                   href="#"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
                   <AiOutlineTwitter />
-                </a>
+                </a> */}
               </li>
               <li className="social-icons">
                 <a
