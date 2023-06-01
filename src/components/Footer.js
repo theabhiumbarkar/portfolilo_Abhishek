@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
+  // AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -32,14 +32,14 @@ function Footer() {
               </a>
             </li>
             <li className="social-icons">
-              <a
+              {/* <a
                 href="#"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
                 <AiOutlineTwitter />
-              </a>
+              </a> */}
             </li>
             <li className="social-icons">
               <a
